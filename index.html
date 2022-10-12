@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <title>Links website</title>
+  <link rel="My resume" href="img/Advanced_resume.pdf">
+      
+  <style>
+    body {
+      background-image: url("img/template.jpg");
+      padding: 100px;
+
+      /* The image used for background */
+      background-position: center;
+      /* Center the image */
+      background-repeat: no-repeat;
+      /* Do not repeat the image */
+      background-size: cover;
+      /* Resize the background image to cover the entire container */
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .name {
+      margin-top: 15px !important;
+    }
+
+    .w3-theme-d3 {
+      background-color: rgba(42, 169, 219, 0.6) !important;
+    }
+
+    .w3-theme-d3:hover {
+      background-color: rgba(42, 169, 219, 0.8) !important;
+    }
+
+    a {
+      font-size: x-large;
+    }
+
+    .w3-border {
+      border: 3px solid #ccc !important;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .links-container a {
+      width: 80%;
+    }
+
+    .profession {
+      font-size: 14px;
+    }
+
+    .subscribe {
+      font-size: 15px;
+    }
+
+    .submit form {
+      display: flex;
+      flex-direction: column;
+      font-display:inherit;
+    }
+
+    .submit form button {
+      margin-top: 5px;
+      background-color: rgba(27, 122, 159, 0.9) !important;
+      color: rgb(221, 222, 237) !important;
+    }
+
+    .submit form button:hover {
+      background-color: rgba(15, 67, 87, 0.9) !important;
+      color: #fff !important;
+    }
+
+    .submit form input {
+      width: 100% !important;
+    }
+
+    .submit form input::placeholder {
+      color: #fff;
+    }
+
+    .icons1 {
+      display: flex;
+      gap: 40px;
+    }
+                                                      
+    .icons1 a {
+      text-decoration: dotted;
+
+    }
+
+    .sub-box {
+      display: none;
+      width: 100%;
+      height: 100px;
+      padding: 20px 50px;
+      background-color: rgba(42, 169, 219, 0.6);
+    }
+
+    .sub-box #btn {
+      padding: 20px;
+
+    }
+
+    .icons1 a svg {
+      fill: #d0ecf7;
+      transform: scale(1.5);
+
+    }
+
+    .icons1 {
+      background-color: rgba(42, 169, 219, 0.6);
+      display: flex;
+      justify-content: center;
+      padding: 0.8rem 0;
+      border-radius: 0 0 12px 12px;
+    }
+
+    .icons1 li {
+      list-style-type: none;
+      background: #B721FF;
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      margin: 0 0.5rem;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .icons1 li:hover {
+      background: #d8e302;
+      color: rgb(228, 77, 210);
+    }
+
+    @media screen and (min-width: 768px) {
+      .link {
+        width: 100%;
+      }
+    }
+
+    @media screen and (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+
+      .profession {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body bgcolor="skyblue">
+  <!-- Content container -->
+  <div class="container">
+
+    <!-- Image and name container. Change to your picture here. -->
+    <div class="" style="text-align: center">
+      <img src="img/WhatsApp Image 2022-05-14 at 10.26.53 PM.jpeg" class="w3-round" alt="person image" width="500px"
+        height="500px" style="border-radius:100%; border: 2px solid #010808 !important; margin-top: 1px;">
+      <p class="name"><br><span class="w3-padding w3-theme-l1 w3-margin w3-round"
+          style="font-weight: bolder; font-size: x-large; border: 3px solid #7dd37b;">Hey. I'am Nand kishor Vyas </span>
+      </p><br>
+      <p><span class="profession w3-padding w3-theme-d5 w3-round"
+          style="font-weight: bolder; border: 3px solid #75d190;">I am a Frontend Devloper!</span></p><br>
+    </div>
+
+    <!-- Links section 1. Replace the # inside of the "" with your links. -->
+    <div class="links-container">
+      <a href="https://nandkishorvyas70.wixsite.com/myportfolio/about-4" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank">MY
+        PROJECTS</a>
+      <a href="https://myportfolio-nkv.netlify.app/about%20me.html" class="w3-button w3-round w3-theme-d3 w3-border link">ABOUT ME</a>
+      <a href="img/Advanced_resume.pdf" class="w3-button w3-round w3-theme-d3 w3-border link" type="button">MY
+        RESUME</a>
+      <a href="https://nandkishorvyas70.wixsite.com/my-site" class="w3-button w3-round w3-theme-d3 w3-border link"
+        type="button">MY
+        SITE</a>
+      <a href="https://nandkishorvyas70.wixsite.com/my-site/about-1"
+        class="w3-button w3-round w3-theme-d3 w3-border link" type="button">MY
+        COLLEGE</a>
+      <a href="https://nandkishorvyas70.wixsite.com/myportfolio/blank-1" class="w3-button w3-round w3-theme-d3 w3-border link">CONTACT ME</a>
+      <p><span class="subscribe w3-padding w3-theme-d5 w3-round"
+          style="font-weight: bolder; border: 3px solid #e5f503;">Subscribe to my news!</span></p>
+      <div class="submit" style="width: 80%;">
+        <form>
+          <input class="w3-input w3-round w3-theme-d3 w3-border" type="text" placeholder="Your email . . . "
+            name="email">
+          <!-- <a href="/subscribing page.html" class="w3-button w3-round w3-border" type="submit">SUBSCRIBE</a> -->
+          <button id="sub-btn">Subscribe</button>
+        </form>
+        <div class="sub-box">
+          <!-- <img src="img/template.jpg" alt=""> -->
+          <button id="btn">
+            Thanks for Subscribing!!!
+          </button>
+        </div>
+      </div>
+      <div class="icons w3-padding">
+        <a href="https://www.facebook.com/profile.php?id=100042183222533" target="_blank">
+          <i data-feather="facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/n_k_v55066/">
+          <i data-feather="instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/nand-kishor-vyas-b6b7b71ba/">
+          <i data-feather="linkedin"></i>
+        </a> <a href="https://twitter.com/NandKis58300894/" target="_blank">
+          <i data-feather="twitter"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const subBtn = document.getElementById("sub-btn");
+    const screen = document.querySelector(".sub-box");
+    console.log(subBtn);
+    console.log(screen);
+    subBtn.addEventListener("click", () => {
+      screen.style.display = "block";
+    })
+  </script>
+  <ul class="icons1">
+    <a href="https://www.facebook.com/profile.php?id=100042183222533">
+      <li><i class="fab fa-facebook-f"></i></li>
+    </a>
+    <a href="https://twitter.com/NandKis58300894">
+      <li><i class="fab fa-twitter"></i></li>
+    </a>
+    <a href="https://www.linkedin.com/in/nand-kishor-vyas-b6b7b71ba/">
+      <li><i class="fab fa-linkedin"></i></li>
+    </a>
+    <a href="https://www.instagram.com/n_k_v55066/">
+      <li><i class="fab fa-instagram"></i></li>
+    </a>
+  </ul>
+</body>
+
+</html>
